@@ -12,9 +12,9 @@ public class GenThree
 	
 	
 	//generates three numbers within the given borders
-        int num1 = (int)Math.floor(Math.random() * (max - min + 1)) + min;
-	int num2 = (int)Math.floor(Math.random() * (max - min + 1)) + min;
-	int num3 = (int)Math.floor(Math.random() * (max - min + 1)) + min;
+        int num1 = (int)Math.floor(Math.random() * (max - min)) + min;
+	int num2 = (int)Math.floor(Math.random() * (max - min)) + min;
+	int num3 = (int)Math.floor(Math.random() * (max - min)) + min;
 	
 	int minNum = Math.min(Math.min(num1, num2), Math.min(num1, num3));//uses the "Math" function to return the minimalnumber of the three numbers
 	
