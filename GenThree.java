@@ -6,8 +6,8 @@ public class GenThree
 {
     public static void main(String[] args)
  {
-	 //creates min and max borders of the random numbers 
-    int min = Integer.parseInt(args[0]);
+	//creates min and max borders of the random numbers 
+        int min = Integer.parseInt(args[0]);
 	int max = Integer.parseInt(args[1]);
 	
 	
@@ -20,8 +20,8 @@ public class GenThree
 	
 	 
 	//prints the three random numbers
-    System.out.println(num1);
-    System.out.println(num2);
+        System.out.println(num1);
+        System.out.println(num2);
 	System.out.println(num3);
 	
 	System.out.println("The minimal generated number was " + minNum);//prints the minimal number
