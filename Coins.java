@@ -9,6 +9,6 @@ public class Coins
 	 int sum = Integer.parseInt(args[0]);//creates an integer theat its value is given by the user
 	 int quart = sum / 25;//creates an integer that  represent the amount of quarters needed
 	 int cent = sum % 25;//creates an integer that  represent the amount of cents needed
-	 System.out.println("use " + quart + " quarters and " + cent + " cents ");//prints the amount of quarters and cents needed
+	 System.out.println("Use " + quart + " quarters and " + cent + " cents ");//prints the amount of quarters and cents needed
  }
 }
