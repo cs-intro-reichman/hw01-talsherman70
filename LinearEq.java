@@ -13,7 +13,7 @@ public class LinearEq
 	 double varB = Double.parseDouble(args[1]);
 	 double varC = Double.parseDouble(args[2]);
 	 
-	 System.out.println(varA + "X + " + varB + " = " + varC );//prints the equation 
+	 System.out.println(varA + " * X + " + varB + " = " + varC );//prints the equation 
 	 System.out.println("X = " + (((varC-varB))/varA));// prints the solved result
  }
 }
