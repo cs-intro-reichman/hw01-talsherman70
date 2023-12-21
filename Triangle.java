@@ -12,13 +12,7 @@ public class Triangle
 	 int len2 = Integer.parseInt(args[1]);
      int len3 = Integer.parseInt(args[2]);
 	 
-	 boolean ans = false;//boolean that represents the answer whether the sides create a triangle 
-	 
-	 if(len1 + len2 > len3 && len1 + len3 > len2 && len2 + len3 > len1)//checks if the sides can create a triangle
-	 {
-		 ans = true;
-	 }		 
-	 
+	 boolean ans = len1 + len2 > len3 && len1 + len3 > len2 && len2 + len3 > len1;//boolean that represents the answer whether the sides create a triangle
 	 System.out.println(len1 + ", " + len2 + ", " + len3 + ": " + ans);//prints the sides and the answer
   }
 }
